@@ -28,7 +28,7 @@ def homeMenu():
         print("Invalid")
 
 def switch_map():
-  ''' describe'''
+  '''Allows user to travel from one map to another'''
   global m , x, y
   if m == 0: # Home
       answer = input("Do you want to travel to The Mines or The Village? ")
